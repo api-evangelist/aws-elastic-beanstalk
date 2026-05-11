@@ -1,0 +1,62 @@
+aid: aws-elastic-beanstalk
+name: AWS Elastic Beanstalk
+description: >-
+  AWS Elastic Beanstalk is a Platform-as-a-Service offering that makes it easy
+  to deploy, scale, and manage web applications and services developed in Java,
+  .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar AWS
+  infrastructure. It automatically handles capacity provisioning, load
+  balancing, auto-scaling, and health monitoring. The Elastic Beanstalk API
+  and AWS SDKs provide programmatic access to applications, environments, and
+  deployments using AWS Signature Version 4 authentication.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Platform as a Service
+  - Application Deployment
+  - Auto Scaling
+  - Cloud
+  - DevOps
+  - AWS
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: aws-elastic-beanstalk:management-api
+    name: AWS Elastic Beanstalk API
+    description: >-
+      Query API for creating and managing Elastic Beanstalk applications,
+      versions, environments, configuration templates, and deployments.
+      Requests are authenticated with AWS Signature Version 4 (SigV4) using
+      AWS access keys or temporary IAM credentials.
+    humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
+    baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
+    tags:
+      - PaaS
+      - Application Deployment
+      - Environments
+      - DevOps
+      - AWS
+    properties:
+      - type: Documentation
+        url: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
+      - type: Developer Guide
+        url: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
+      - type: WSDL
+        url: https://elasticbeanstalk.s3.amazonaws.com/doc/2010-12-01/AWSElasticBeanstalk.wsdl
+      - type: Endpoints
+        url: https://docs.aws.amazon.com/general/latest/gr/elasticbeanstalk.html
+
+common:
+  - type: Website
+    url: https://aws.amazon.com/elasticbeanstalk/
+  - type: Documentation
+    url: https://docs.aws.amazon.com/elasticbeanstalk/
+  - type: Pricing
+    url: https://aws.amazon.com/elasticbeanstalk/pricing/
+  - type: Sign Up
+    url: https://portal.aws.amazon.com/billing/signup
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
