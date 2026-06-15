@@ -1,0 +1,45 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "AWS Elastic Beanstalk API",
+    "version": "2010-12-01"
+  },
+  "request": {
+    "auth": {
+      "type": "apikey",
+      "key": "Authorization",
+      "value": "{{Authorization}}",
+      "placement": "header"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "AWS Elastic Beanstalk Query API entry point",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://elasticbeanstalk.{region}.amazonaws.com/",
+        "params": [
+          {
+            "name": "Action",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "Version",
+            "value": "",
+            "type": "query"
+          }
+        ],
+        "body": {
+          "type": "form-urlencoded",
+          "data": []
+        }
+      },
+      "docs": "All Elastic Beanstalk operations are POST requests to the root path\nwith the Action and Version specified as parameters and operation\ninput in the application/x-www-form-urlencoded request body.\n"
+    }
+  ],
+  "bundled": true
+}
