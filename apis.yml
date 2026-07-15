@@ -49,6 +49,8 @@ apis:
         url: https://docs.aws.amazon.com/general/latest/gr/elasticbeanstalk.html
 
 common:
+  - type: AgenticAccess
+    url: agentic-access/aws-elastic-beanstalk-agentic-access.yml
   - type: TrustCenter
     url: security/aws-elastic-beanstalk-trust-center.yml
   - type: VulnerabilityDisclosure
