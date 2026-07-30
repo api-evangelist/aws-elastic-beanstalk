@@ -9,7 +9,19 @@ description: >-
   and AWS SDKs provide programmatic access to applications, environments, and
   deployments using AWS Signature Version 4 authentication.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-elastic-beanstalk.png
 tags:
   - Platform as a Service
   - Application Deployment
@@ -23,31 +35,41 @@ created: '2026-05-11'
 modified: '2026-05-11'
 specificationVersion: '0.19'
 apis:
-  - aid: aws-elastic-beanstalk:management-api
-    name: AWS Elastic Beanstalk API
-    description: >-
-      Query API for creating and managing Elastic Beanstalk applications,
-      versions, environments, configuration templates, and deployments.
-      Requests are authenticated with AWS Signature Version 4 (SigV4) using
-      AWS access keys or temporary IAM credentials.
-    humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
-    baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
-    tags:
-      - PaaS
-      - Application Deployment
-      - Environments
-      - DevOps
-      - AWS
-    properties:
-      - type: Documentation
-        url: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
-      - type: Developer Guide
-        url: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
-      - type: WSDL
-        url: https://elasticbeanstalk.s3.amazonaws.com/doc/2010-12-01/AWSElasticBeanstalk.wsdl
-      - type: Endpoints
-        url: https://docs.aws.amazon.com/general/latest/gr/elasticbeanstalk.html
-
+- aid: aws-elastic-beanstalk:management-api
+  name: AWS Elastic Beanstalk API
+  description: >-
+    Query API for creating and managing Elastic Beanstalk applications, versions, environments, configuration
+    templates, and deployments. Requests are authenticated with AWS Signature Version 4 (SigV4) using
+    AWS access keys or temporary IAM credentials.
+  humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
+  baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
+  tags:
+  - PaaS
+  - Application Deployment
+  - Environments
+  - DevOps
+  - AWS
+  properties:
+  - type: Documentation
+    url: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
+  - type: Developer Guide
+    url: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
+  - type: WSDL
+    url: https://elasticbeanstalk.s3.amazonaws.com/doc/2010-12-01/AWSElasticBeanstalk.wsdl
+  - type: Endpoints
+    url: https://docs.aws.amazon.com/general/latest/gr/elasticbeanstalk.html
+- aid: aws-elastic-beanstalk:aws-elastic-beanstalk-aws-elastic-beanstalk-api-api
+  name: AWS Elastic Beanstalk AWS Elastic Beanstalk API API
+  description: >-
+    The AWS Elastic Beanstalk API API from AWS Elastic Beanstalk — 1 operation(s) for aws elastic beanstalk
+    api.
+  humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
+  baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
+  tags:
+  - AWS Elastic Beanstalk API
+  properties:
+  - type: OpenAPI
+    url: openapi/aws-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml
 common:
   - type: AgenticAccess
     url: agentic-access/aws-elastic-beanstalk-agentic-access.yml
