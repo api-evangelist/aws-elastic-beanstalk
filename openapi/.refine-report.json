@@ -1,0 +1,14 @@
+{
+  "provider": "aws-elastic-beanstalk",
+  "sources": [
+    "aws-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml"
+  ],
+  "outputs": [
+    "aws-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
