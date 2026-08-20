@@ -23,6 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-elastic-beanstalk.png
 tags:
+  - Platform-as-a-Service
+  - Application Deployment
+  - Auto-Scaling
+  - Cloud
+  - DevOps
+  - AWS
+tags_raw:
   - Platform as a Service
   - Application Deployment
   - Auto Scaling
@@ -44,6 +51,12 @@ apis:
   humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
   baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
   tags:
+  - Platform-as-a-Service
+  - Application Deployment
+  - Environments
+  - DevOps
+  - AWS
+  tags_raw:
   - PaaS
   - Application Deployment
   - Environments
