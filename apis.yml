@@ -37,7 +37,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-elasti
 tags:
   - Platform-as-a-Service
   - Application Deployment
-  - Auto Scaling
+  - Auto-Scaling
   - Cloud
   - DevOps
   - AWS
@@ -63,7 +63,7 @@ apis:
   humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
   baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
   tags:
-  - PaaS
+  - Platform-as-a-Service
   - Application Deployment
   - Environments
   - DevOps
