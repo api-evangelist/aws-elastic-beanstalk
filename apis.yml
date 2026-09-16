@@ -1,13 +1,10 @@
 aid: aws-elastic-beanstalk
 name: AWS Elastic Beanstalk
-description: >-
-  AWS Elastic Beanstalk is a Platform-as-a-Service offering that makes it easy
-  to deploy, scale, and manage web applications and services developed in Java,
-  .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar AWS
-  infrastructure. It automatically handles capacity provisioning, load
-  balancing, auto-scaling, and health monitoring. The Elastic Beanstalk API
-  and AWS SDKs provide programmatic access to applications, environments, and
-  deployments using AWS Signature Version 4 authentication.
+description: AWS Elastic Beanstalk is a Platform-as-a-Service offering that makes it easy to deploy, scale,
+  and manage web applications and services developed in Java, .NET, PHP, Node.js, Python, Ruby, Go, and
+  Docker on familiar AWS infrastructure. It automatically handles capacity provisioning, load balancing,
+  auto-scaling, and health monitoring. The Elastic Beanstalk API and AWS SDKs provide programmatic access
+  to applications, environments, and deployments using AWS Signature Version 4 authentication.
 type: Index
 deliveryModel:
   model: saas
@@ -36,31 +33,29 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-elastic-beanstalk.png
 tags:
-  - Platform-as-a-Service
-  - Application Deployment
-  - Auto-Scaling
-  - Cloud
-  - DevOps
-  - AWS
+- Platform-as-a-Service
+- Application Deployment
+- Auto-Scaling
+- Cloud
+- DevOps
+- AWS
 tags_raw:
-  - Platform as a Service
-  - Application Deployment
-  - Auto Scaling
-  - Cloud
-  - DevOps
-  - AWS
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/apis.yml
+- Platform as a Service
+- Application Deployment
+- Auto Scaling
+- Cloud
+- DevOps
+- AWS
+url: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/apis.yml
 created: '2026-05-11'
-modified: '2026-05-11'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 apis:
 - aid: aws-elastic-beanstalk:management-api
   name: AWS Elastic Beanstalk API
-  description: >-
-    Query API for creating and managing Elastic Beanstalk applications, versions, environments, configuration
-    templates, and deployments. Requests are authenticated with AWS Signature Version 4 (SigV4) using
-    AWS access keys or temporary IAM credentials.
+  description: Query API for creating and managing Elastic Beanstalk applications, versions, environments,
+    configuration templates, and deployments. Requests are authenticated with AWS Signature Version 4
+    (SigV4) using AWS access keys or temporary IAM credentials.
   humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
   baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
   tags:
@@ -85,10 +80,9 @@ apis:
   - type: Endpoints
     url: https://docs.aws.amazon.com/general/latest/gr/elasticbeanstalk.html
 - aid: aws-elastic-beanstalk:aws-elastic-beanstalk-aws-elastic-beanstalk-api-api
-  name: AWS Elastic Beanstalk AWS Elastic Beanstalk API API
-  description: >-
-    The AWS Elastic Beanstalk API API from AWS Elastic Beanstalk — 1 operation(s) for aws elastic beanstalk
-    api.
+  name: AWS Elastic Beanstalk AWS Elastic Beanstalk API
+  description: The AWS Elastic Beanstalk API API from AWS Elastic Beanstalk — 1 operation(s) for aws elastic
+    beanstalk api.
   humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
   baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
   tags:
@@ -97,28 +91,28 @@ apis:
   - type: OpenAPI
     url: openapi/aws-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml
 common:
-  - type: AgenticAccess
-    url: agentic-access/aws-elastic-beanstalk-agentic-access.yml
-  - type: TrustCenter
-    url: security/aws-elastic-beanstalk-trust-center.yml
-  - type: VulnerabilityDisclosure
-    url: security/aws-elastic-beanstalk-vulnerability-disclosure.yml
-  - type: DomainSecurity
-    url: security/aws-elastic-beanstalk-domain-security.yml
-  - type: Authentication
-    url: authentication/aws-elastic-beanstalk-authentication.yml
-  - type: Website
-    url: https://aws.amazon.com/elasticbeanstalk/
-  - type: Documentation
-    url: https://docs.aws.amazon.com/elasticbeanstalk/
-  - type: Pricing
-    url: https://aws.amazon.com/elasticbeanstalk/pricing/
-  - type: Signup
-    url: https://portal.aws.amazon.com/billing/signup
-  - url: https://aws.amazon.com/blogs/devops/feed/
-    type: Blog
+- type: AgenticAccess
+  url: agentic-access/aws-elastic-beanstalk-agentic-access.yml
+- type: TrustCenter
+  url: security/aws-elastic-beanstalk-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/aws-elastic-beanstalk-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/aws-elastic-beanstalk-domain-security.yml
+- type: Authentication
+  url: authentication/aws-elastic-beanstalk-authentication.yml
+- type: Website
+  url: https://aws.amazon.com/elasticbeanstalk/
+- type: Documentation
+  url: https://docs.aws.amazon.com/elasticbeanstalk/
+- type: Pricing
+  url: https://aws.amazon.com/elasticbeanstalk/pricing/
+- type: Signup
+  url: https://portal.aws.amazon.com/billing/signup
+- url: https://aws.amazon.com/blogs/devops/feed/
+  type: Blog
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
 x-parent: aws
 x-relationship: product
