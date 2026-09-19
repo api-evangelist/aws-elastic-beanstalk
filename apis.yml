@@ -61,7 +61,7 @@ apis:
   tags:
   - Platform-as-a-Service
   - Application Deployment
-  - Environments
+  - Environment
   - DevOps
   - AWS
   tags_raw:
