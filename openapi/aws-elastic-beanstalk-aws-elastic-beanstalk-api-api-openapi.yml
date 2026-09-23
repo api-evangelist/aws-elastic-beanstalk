@@ -15,9 +15,7 @@ info:
     with AWS Signature Version 4 (SigV4).
 
 
-    See https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
-
-    '
+    See https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html'
 servers:
 - url: https://elasticbeanstalk.{region}.amazonaws.com
   description: AWS Elastic Beanstalk regional endpoint
@@ -36,9 +34,7 @@ paths:
 
         with the Action and Version specified as parameters and operation
 
-        input in the application/x-www-form-urlencoded request body.
-
-        '
+        input in the application/x-www-form-urlencoded request body.'
       operationId: invokeAction
       parameters:
       - name: Action
