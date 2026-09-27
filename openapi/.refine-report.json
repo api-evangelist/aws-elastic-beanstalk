@@ -1,12 +1,25 @@
 {
   "provider": "aws-elastic-beanstalk",
   "sources": [
-    "_original/aws-elastic-beanstalk-openapi.yml"
+    "_original/aws-elastic-beanstalk-openapi.yml",
+    "amazon-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml",
+    "amazon-elastic-beanstalk-createenvironment-api-openapi.yml",
+    "amazon-elastic-beanstalk-describeenvironments-api-openapi.yml",
+    "amazon-elastic-beanstalk-updateenvironment-api-openapi.yml"
   ],
   "outputs": [
-    "aws-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml"
+    "aws-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml",
+    "aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml",
+    "aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-create-api-openapi.yml",
+    "aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-describe-api-openapi.yml",
+    "aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-update-api-openapi.yml"
   ],
-  "archived": [],
+  "archived": [
+    "archived openapi/amazon-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml",
+    "archived openapi/amazon-elastic-beanstalk-createenvironment-api-openapi.yml",
+    "archived openapi/amazon-elastic-beanstalk-describeenvironments-api-openapi.yml",
+    "archived openapi/amazon-elastic-beanstalk-updateenvironment-api-openapi.yml"
+  ],
   "errors": [],
   "warnings": [],
   "notes": [
@@ -14,7 +27,13 @@
     "aws-elastic-beanstalk-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
     "aws-elastic-beanstalk-openapi.yml: tagged paths POST / -> AWS Elastic Beanstalk API",
     "aws-elastic-beanstalk-openapi.yml: declared missing tag: AWS Elastic Beanstalk API",
-    "apis.yml register: already-registered"
+    "amazon-elastic-beanstalk-createenvironment-api-openapi.yml: tagged paths POST /#CreateEnvironment -> Amazon Elastic Beanstalk AWS Elastic Beanstalk #Create\u2026",
+    "amazon-elastic-beanstalk-createenvironment-api-openapi.yml: declared missing tag: Amazon Elastic Beanstalk AWS Elastic Beanstalk #Create\u2026",
+    "amazon-elastic-beanstalk-describeenvironments-api-openapi.yml: tagged paths GET /#DescribeEnvironments -> Amazon Elastic Beanstalk AWS Elastic Beanstalk #Describe\u2026",
+    "amazon-elastic-beanstalk-describeenvironments-api-openapi.yml: declared missing tag: Amazon Elastic Beanstalk AWS Elastic Beanstalk #Describe\u2026",
+    "amazon-elastic-beanstalk-updateenvironment-api-openapi.yml: tagged paths POST /#UpdateEnvironment -> Amazon Elastic Beanstalk AWS Elastic Beanstalk #Update\u2026",
+    "amazon-elastic-beanstalk-updateenvironment-api-openapi.yml: declared missing tag: Amazon Elastic Beanstalk AWS Elastic Beanstalk #Update\u2026",
+    "apis.yml register: written (+4 apis, 6 total)"
   ],
   "skipped": [
     "aws-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml: previously refined output, superseded by openapi/_original/"

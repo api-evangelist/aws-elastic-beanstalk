@@ -53,9 +53,10 @@ specificationVersion: '0.23'
 apis:
 - aid: aws-elastic-beanstalk:management-api
   name: AWS Elastic Beanstalk API
-  description: Query API for creating and managing Elastic Beanstalk applications, versions, environments,
-    configuration templates, and deployments. Requests are authenticated with AWS Signature Version 4
-    (SigV4) using AWS access keys or temporary IAM credentials.
+  description: >-
+    Query API for creating and managing Elastic Beanstalk applications, versions, environments, configuration
+    templates, and deployments. Requests are authenticated with AWS Signature Version 4 (SigV4) using
+    AWS access keys or temporary IAM credentials.
   humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
   baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
   tags:
@@ -81,8 +82,9 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/elasticbeanstalk.html
 - aid: aws-elastic-beanstalk:aws-elastic-beanstalk-aws-elastic-beanstalk-api-api
   name: AWS Elastic Beanstalk AWS Elastic Beanstalk API
-  description: The AWS Elastic Beanstalk API API from AWS Elastic Beanstalk — 1 operation(s) for aws elastic
-    beanstalk api.
+  description: >-
+    The AWS Elastic Beanstalk API API from AWS Elastic Beanstalk — 1 operation(s) for aws elastic beanstalk
+    api.
   humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
   baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
   tags:
@@ -90,6 +92,134 @@ apis:
   properties:
   - type: OpenAPI
     url: openapi/aws-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml
+- aid: >-
+    aws-elastic-beanstalk:aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api
+  name: AWS Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk API
+  description: >-
+    The Amazon Elastic Beanstalk AWS Elastic Beanstalk API API from AWS Elastic Beanstalk — 1 operation(s)
+    for amazon elastic beanstalk aws elastic beanstalk api.
+  humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
+  baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
+  tags:
+  - Amazon Elastic Beanstalk AWS Elastic Beanstalk API
+  properties:
+  - type: OpenAPI
+    url: >-
+      openapi/aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/
+  - type: GettingStarted
+    url: https://aws.amazon.com/elasticbeanstalk/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/elasticbeanstalk/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/elasticbeanstalk/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-elastic-beanstalk-application-description-message-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-elastic-beanstalk-application-description-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-elastic-beanstalk-application-descriptions-message-schema.json
+  - type: JSONLD
+    url: json-ld/amazon-elastic-beanstalk-context.jsonld
+- aid: >-
+    aws-elastic-beanstalk:aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-create-api
+  name: 'AWS Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk #Create… API'
+  description: >-
+    The Amazon Elastic Beanstalk AWS Elastic Beanstalk #Create… API from AWS Elastic Beanstalk — 1 operation(s)
+    for amazon elastic beanstalk aws elastic beanstalk #create….
+  humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
+  baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
+  tags:
+  - 'Amazon Elastic Beanstalk AWS Elastic Beanstalk #Create…'
+  properties:
+  - type: OpenAPI
+    url: >-
+      openapi/aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-create-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/
+  - type: GettingStarted
+    url: https://aws.amazon.com/elasticbeanstalk/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/elasticbeanstalk/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/elasticbeanstalk/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-elastic-beanstalk-application-description-message-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-elastic-beanstalk-application-description-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-elastic-beanstalk-application-descriptions-message-schema.json
+  - type: JSONLD
+    url: json-ld/amazon-elastic-beanstalk-context.jsonld
+- aid: >-
+    aws-elastic-beanstalk:aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-describe-api
+  name: 'AWS Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk #Describe… API'
+  description: >-
+    The Amazon Elastic Beanstalk AWS Elastic Beanstalk #Describe… API from AWS Elastic Beanstalk — 1 operation(s)
+    for amazon elastic beanstalk aws elastic beanstalk #describe….
+  humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
+  baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
+  tags:
+  - 'Amazon Elastic Beanstalk AWS Elastic Beanstalk #Describe…'
+  properties:
+  - type: OpenAPI
+    url: >-
+      openapi/aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-describe-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/
+  - type: GettingStarted
+    url: https://aws.amazon.com/elasticbeanstalk/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/elasticbeanstalk/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/elasticbeanstalk/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-elastic-beanstalk-application-description-message-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-elastic-beanstalk-application-description-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-elastic-beanstalk-application-descriptions-message-schema.json
+  - type: JSONLD
+    url: json-ld/amazon-elastic-beanstalk-context.jsonld
+- aid: >-
+    aws-elastic-beanstalk:aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-update-api
+  name: 'AWS Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk #Update… API'
+  description: >-
+    The Amazon Elastic Beanstalk AWS Elastic Beanstalk #Update… API from AWS Elastic Beanstalk — 1 operation(s)
+    for amazon elastic beanstalk aws elastic beanstalk #update….
+  humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
+  baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
+  tags:
+  - 'Amazon Elastic Beanstalk AWS Elastic Beanstalk #Update…'
+  properties:
+  - type: OpenAPI
+    url: >-
+      openapi/aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-update-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/
+  - type: GettingStarted
+    url: https://aws.amazon.com/elasticbeanstalk/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/elasticbeanstalk/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/elasticbeanstalk/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-elastic-beanstalk-application-description-message-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-elastic-beanstalk-application-description-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-elastic-beanstalk-application-descriptions-message-schema.json
+  - type: JSONLD
+    url: json-ld/amazon-elastic-beanstalk-context.jsonld
 common:
 - type: AgenticAccess
   url: agentic-access/aws-elastic-beanstalk-agentic-access.yml
@@ -114,5 +244,5 @@ common:
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
-x-parent: aws
+x-parent: amazon-web-services
 x-relationship: product
