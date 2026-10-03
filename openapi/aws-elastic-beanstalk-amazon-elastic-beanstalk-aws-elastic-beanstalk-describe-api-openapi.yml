@@ -86,6 +86,15 @@ paths:
         dispatcher: FALLBACK
 components:
   schemas:
+    EnvironmentDescriptionsMessage:
+      type: object
+      properties:
+        Environments:
+          type: array
+          items:
+            $ref: '#/components/schemas/Environment'
+        NextToken:
+          type: string
     Environment:
       type: object
       properties:
@@ -170,15 +179,6 @@ components:
             Version:
               type: string
           description: Describes the current tier of this environment.
-    EnvironmentDescriptionsMessage:
-      type: object
-      properties:
-        Environments:
-          type: array
-          items:
-            $ref: '#/components/schemas/Environment'
-        NextToken:
-          type: string
   securitySchemes:
     aws_sigv4:
       type: apiKey
