@@ -12,9 +12,7 @@
     "aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-describe-api-openapi.yml",
     "aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-update-api-openapi.yml"
   ],
-  "archived": [
-    "deleted 1 superseded output(s) from the previous generation"
-  ],
+  "archived": [],
   "errors": [],
   "warnings": [],
   "notes": [
@@ -26,15 +24,13 @@
     "amazon-elastic-beanstalk-describeenvironments-api-openapi.yml: declared missing tag: Amazon Elastic Beanstalk AWS Elastic Beanstalk #Describe\u2026",
     "amazon-elastic-beanstalk-updateenvironment-api-openapi.yml: tagged paths POST /#UpdateEnvironment -> Amazon Elastic Beanstalk AWS Elastic Beanstalk #Update\u2026",
     "amazon-elastic-beanstalk-updateenvironment-api-openapi.yml: declared missing tag: Amazon Elastic Beanstalk AWS Elastic Beanstalk #Update\u2026",
-    "superseded outputs removed: aws-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml",
-    "apis.yml register: written (+0 apis, 5 total)"
+    "apis.yml register: already-registered"
   ],
   "skipped": [
     "_original/aws-elastic-beanstalk-openapi.yml: archived document superseded by a larger archived document",
     "aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml: previously refined output, superseded by openapi/_original/",
     "aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-create-api-openapi.yml: previously refined output, superseded by openapi/_original/",
     "aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-describe-api-openapi.yml: previously refined output, superseded by openapi/_original/",
-    "aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-update-api-openapi.yml: previously refined output, superseded by openapi/_original/",
-    "aws-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+    "aws-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-update-api-openapi.yml: previously refined output, superseded by openapi/_original/"
   ]
 }
