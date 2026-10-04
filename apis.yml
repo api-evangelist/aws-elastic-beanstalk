@@ -88,7 +88,8 @@ apis:
     for amazon elastic beanstalk aws elastic beanstalk api.
   humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
   baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - Amazon Elastic Beanstalk AWS Elastic Beanstalk API
   properties:
   - type: OpenAPI
@@ -120,8 +121,9 @@ apis:
     for amazon elastic beanstalk aws elastic beanstalk #create….
   humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
   baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
-  tags:
-  - 'Amazon Elastic Beanstalk AWS Elastic Beanstalk #Create…'
+  tags: []
+  tags_raw:
+  - Amazon Elastic Beanstalk AWS Elastic Beanstalk #Create…
   properties:
   - type: OpenAPI
     url: >-
@@ -152,8 +154,9 @@ apis:
     for amazon elastic beanstalk aws elastic beanstalk #describe….
   humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
   baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
-  tags:
-  - 'Amazon Elastic Beanstalk AWS Elastic Beanstalk #Describe…'
+  tags: []
+  tags_raw:
+  - Amazon Elastic Beanstalk AWS Elastic Beanstalk #Describe…
   properties:
   - type: OpenAPI
     url: >-
@@ -184,8 +187,9 @@ apis:
     for amazon elastic beanstalk aws elastic beanstalk #update….
   humanURL: https://docs.aws.amazon.com/elasticbeanstalk/latest/api/Welcome.html
   baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
-  tags:
-  - 'Amazon Elastic Beanstalk AWS Elastic Beanstalk #Update…'
+  tags: []
+  tags_raw:
+  - Amazon Elastic Beanstalk AWS Elastic Beanstalk #Update…
   properties:
   - type: OpenAPI
     url: >-
