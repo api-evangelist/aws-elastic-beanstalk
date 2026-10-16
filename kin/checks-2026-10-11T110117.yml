@@ -2,16 +2,16 @@
 kin_checks:
   slug: aws-elastic-beanstalk
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  run_ts: 2026-10-03T024842
+  scored_at: '2026-10-11'
+  run_ts: 2026-10-11T110117
   note: Actionable checks (missed + partial) in `checks`, plus the ids that did not
     apply in `na`. Everything else in rubric/scoring-0.23.0.yml was earned; counts
     below let you verify that.
   counts:
     total: 153
-    earned: 25
+    earned: 23
     partial: 20
-    missed: 80
+    missed: 82
     na: 28
   checks:
   - id: newsroom_present
@@ -43,6 +43,8 @@ kin_checks:
     detail: 0 of 4 openapi documents pass; credited at 90% because of their provenance
       (unknown)
   - id: asyncapi_present
+    status: missed
+  - id: json_ld_present
     status: missed
   - id: json_ld_class_depth
     status: missed
@@ -117,6 +119,8 @@ kin_checks:
   - id: reg_terms_of_service
     status: missed
   - id: reg_privacy_policy
+    status: missed
+  - id: reg_standards_conformance
     status: missed
   - id: reg_named_standard_conformance
     status: missed
