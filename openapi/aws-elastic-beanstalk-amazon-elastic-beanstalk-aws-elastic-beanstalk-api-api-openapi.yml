@@ -163,6 +163,11 @@ paths:
       - Amazon Elastic Beanstalk AWS Elastic Beanstalk API
 components:
   schemas:
+    ApplicationDescriptionMessage:
+      type: object
+      properties:
+        Application:
+          $ref: '#/components/schemas/ApplicationDescription'
     ApplicationDescription:
       type: object
       properties:
@@ -201,11 +206,6 @@ components:
             VersionLifecycleConfig:
               type: object
           description: The lifecycle settings for the application.
-    ApplicationDescriptionMessage:
-      type: object
-      properties:
-        Application:
-          $ref: '#/components/schemas/ApplicationDescription'
     ApplicationDescriptionsMessage:
       type: object
       properties:
